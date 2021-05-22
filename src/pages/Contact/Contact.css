@@ -1,0 +1,10 @@
+.Contact-conatiner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 40px;
+    color: #444;
+    text-transform: uppercase;
+    word-spacing: 20px;
+}

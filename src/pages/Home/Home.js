@@ -1,8 +1,8 @@
-import  React  from 'react';
-import './Home.css';
- const Home = () =>{
-<div className="Home-conatiner">
-<h1>This is a Home Page</h1>
-</div>;
- };
- export default Home;
+import React from "react";
+import "./Home.css";
+
+const Home = () => {
+  return <div className="Home-container">This is home page</div>;
+};
+
+export default Home;

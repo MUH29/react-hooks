@@ -1,12 +1,12 @@
 ## What Are React Hooks?
 
-React Hooks are in-built functions that allow React developers to use state and lifecycle methods inside functional components, they also work together with existing code, so they can easily be adopted into a codebase. The way Hooks were pitched to the public was that they allow developers to use state in functional components but under the hood, Hooks are much more powerful than that. They allow React Developers to enjoy the following benefits:
+## React Hooks are in-built functions that allow React developers to use state and lifecycle methods inside functional components, they also work together with existing code, so they can easily be adopted into a codebase. The way Hooks were pitched to the public was that they allow developers to use state in functional components but under the hood, Hooks are much more powerful than that. They allow React Developers to enjoy the following benefits:
 
-# Improved code reuse;
-# Better code composition;
-#  Better defaults;
-# Sharing non-visual logic with the use of custom hooks;
-# Flexibility in moving up and down the components tree.
+ Improved code reuse;
+ Better code composition;
+ Better defaults;
+ Sharing non-visual logic with the use of custom hooks;
+ Flexibility in moving up and down the components tree.
 
 With React Hooks, developers get the power to use functional components for almost everything they need to do from just rendering UI to also handling state and also logic — which is pretty neat.
 Motivation Behind The Release Of React Hooks

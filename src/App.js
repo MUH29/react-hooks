@@ -1,9 +1,22 @@
-import './App.css';
+import  React,{ useState } from 'react';
+
+import Header from './component/Header/Header'
+import Footer from './component/Footer/Footer';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
 
 function App() {
-  return (
-    <h1>first page</h1>
-  );
+const[pageName,setPageName] = useState("Home");
+const changePageName = (pageName) => setPageName(pageName);
+return (
+  <>
+  <Header changePageName={setPageName} currentPage={pageName} />
+{pageName === "Home" && <Home/>}
+{pageName === "About" && <About/>}
+  <Footer />
+  </>
+);_
 }
+
 
 export default App;

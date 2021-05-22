@@ -1,6 +1,6 @@
-## What Are React Hooks?
+# What Are React Hooks?
  React Hooks are in-built functions that allow React developers to use state and lifecycle methods inside functional components, they also work together with existing code, so they can easily be adopted into a codebase. The way Hooks were pitched to the public was that they allow developers to use state in functional components but under the hood, Hooks are much more powerful than that. They allow React Developers to enjoy the following benefits:
-##
+#
  Improved code reuse;
  Better code composition;
  Better defaults;
@@ -22,20 +22,18 @@ Motivation Behind The Release Of React Hooks
 Meet Image Optimization, Addy Osmani’s brand new practical guide to optimizing and delivering high-quality images on the web. From formats and compression to delivery and maintenance: everything in one single 528-pages book.
 Jump to table of contents ↬
 Feature Panel
-## The Rules Of Hooks
+# The Rules Of Hooks
 There are two main rules that are strictly to be adhered to as stated by the React core team in which they outlined in the hooks proposal documentation.
 
-# Make sure to not use Hooks inside loops, conditions, or nested functions;
-# Only use Hooks from inside React Functions.
-
+ Make sure to not use Hooks inside loops, conditions, or nested functions;
+ Only use Hooks from inside React Functions.
 # Basic React Hooks
-
 There are 10 in-built hooks that was shipped with React 16.8 but the basic (commonly used) hooks include:
-
-# useState()
-#  useEffect()
-# useContext()
-# useReducer()
+#
+useState()
+useEffect()
+useContext()
+useReducer()
 # These are the 4 basic hooks that are commonly used by React developers that have adopted React Hooks into their codebases.
 # useState()
 The useState() hook allows React developers to update, handle and manipulate state inside functional components without needing to convert it to a class component. Let’s use the code snippet below is a simple Age counter component and we will use it to explain the power and syntax of the useState() hook.

@@ -2,8 +2,8 @@ import  React  from 'react';
 import './News.css';
 
  const News = () =>{
-<div className="News-container">
-<h1>This is a News Page</h1>
+ return <div className="News-container">
+This is a News Page
 </div>;
  };
 

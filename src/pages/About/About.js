@@ -1,9 +1,9 @@
 import  React  from 'react';
 import './About.css';
 
- const About = () =>{
-<div className="About-conatiner">
-<h1>This is a About Page</h1>
+ const About = () =>{ 
+    return <div className="About-conatiner">
+This is a About Page
 </div>;
  };
 

@@ -7,7 +7,7 @@ const Header = ({ changePageName, currentPage }) => {
 
   return (
     <header className="Header-container">
-      <div className="Header-logo">xamQrexii</div>
+      <div className="Header-logo"><span>Muhammad Umer</span></div>
       <ul className="Header-container-ul">
         {pages.map((page, index) => (
           <li

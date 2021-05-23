@@ -1,8 +1,8 @@
 import  React  from 'react';
 import './Contact.css';
  const Contact = () =>{
-<div className="Contact-conatiner">
-<h1>This is a Contact Page</h1>
+ return <div className="Contact-conatiner">
+This is a Contact Page
 </div>;
  };
  export default Contact;

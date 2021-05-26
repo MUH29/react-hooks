@@ -1,0 +1,13 @@
+.ad{
+    width:250px;
+    height:250px;
+    border: 1px solid grey;
+}
+
+.ad img{
+    max-height: 70%;
+}
+
+.text-left{
+    text-align:left;
+}

@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.btn-component button{
+  display: inline-block;
+}
+
+.btn-component{
+  width: 125px;
+  margin: auto;
+}
+
+.blue{
+  color:blue;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+
+.red{
+  color:red;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
